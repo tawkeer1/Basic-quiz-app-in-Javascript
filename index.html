@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="score">score: 0/3 correct</h1>
+        <div class="ques"><h4 class="heading">This is a question</h4></div>
+        <div class="options">
+            <div class="option-box">
+            <input type="radio" value="a" name="choices" class="option" id="option1">
+            <h3>Option 1</h3>
+            </div>
+            
+            <div class="option-box">
+            <input type="radio" value="b" name="choices" class="option" id="option2">
+            <h3>Option 2</h3>
+            </div>
+
+            <div class="option-box">
+            <input type="radio" value="c" name="choices" class="option" id="option3">
+            <h3>Option 3</h3>
+            </div>
+
+            <div class="option-box">
+            <input type="radio" value="d" name="choices" class="option" id="option4">
+            <h3>Option 4</h3>
+            </div>
+            
+        </div>
+    </div>
+    <div class="btn-display">
+        <div class="btn"><button  onclick="submitQuiz()">Submit</button></div>
+    <div id="restart"><button>Restart</button></div>
+    </div>
+    
+ <script src="script.js"></script>   
+</body>
+</html>
